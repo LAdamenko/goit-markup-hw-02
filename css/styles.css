@@ -27,20 +27,34 @@ ul {
 .top-line {
     background-color: #ffffff;
 }
+
 .nav-item {
     text-decoration: none;
     font-weight: 500;
     color: inherit;
 }
+
+.nav-item:focus,
+.nav-item:hover {
+    color: #404BBF;
+} 
+
 .contact {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
     color: #434455;
 }
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
 .main-section {
     background-color: #2E2F42;
 }
+
 .main-title {
     font-size: 56px;
     font-weight: 700;
@@ -49,24 +63,34 @@ ul {
     color: #FFFFFF;
     text-align: center;
 }
+
 .main-button {
     background-color: #4D5AE5;
+    cursor: pointer;
 }
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
 .main-button-text {
     color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.64px;
     text-align: center;
 }
+
 .advantages-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em; /* 120% */
     letter-spacing: 0.4px;
 }
+
 .advantages-text {
     color: #434455;
 }
+
 .section-title {
     text-align: center;
     font-size: 36px;
@@ -74,12 +98,15 @@ ul {
     line-height: 1.11em; /* 111.111% */
     letter-spacing: 0.72px;   
 }
+
 .team-section {
     background-color: #F4F4FD;
 }
+
 .team-card {
     background-color: #FFFFFF;
 }
+
 .team-card-title {
     text-align: center;
     font-size: 20px;
@@ -87,27 +114,33 @@ ul {
     line-height: 1.2em; /* 120% */
     letter-spacing: 0.4px;
 }
+
 .team-card-text {
     color: #434455;
     text-align: center;
     font-weight: 400;
 }
+
 .portf-card {
     background-color: #FFFFFF;
 }
+
 .portf-card-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2em; /* 120% */
     letter-spacing: 0.4px;
 }
+
 .portf-card-text {
     color: #434455;
     font-weight: 400;
 }
+
 .footer-section {
     background-color: #2E2F42;
 }
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -118,6 +151,7 @@ ul {
     letter-spacing: 0.54px;
     text-decoration: none;
 }
+
 .footer-text {
     font-weight: 400;
     color: #F4F4FD;
