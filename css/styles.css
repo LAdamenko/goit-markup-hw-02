@@ -6,7 +6,7 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-
+/* Header */
 .logo {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -52,6 +52,8 @@ ul {
     color: #404BBF;
 }
 
+/* Main content */
+
 .main-section {
     background-color: #2E2F42;
 }
@@ -78,6 +80,7 @@ ul {
 .main-button:focus {
     background-color: #404BBF;
 }
+/* Advantages */
 
 .advantages-title {
     color: #2E2F42;
@@ -85,6 +88,10 @@ ul {
     font-weight: 500;
     line-height: 1.2em; /* 120% */
     letter-spacing: 0.4px;
+}
+
+.advantages-text {
+    text-align: left;
 }
 
 .section-title {
@@ -97,8 +104,14 @@ ul {
     text-transform: capitalize;   
 }
 
+/* Our Team */
+
 .team-section {
     background-color: #F4F4FD;
+}
+
+.team-card {
+    background-color: #FFFFFF;
 }
 
 .team-card-title {
@@ -115,6 +128,8 @@ ul {
     font-weight: 400;
 }
 
+/* Our Portfolio */
+
 .portf-card-title {
     color: #2E2F42;
     font-size: 20px;
@@ -126,6 +141,8 @@ ul {
 .portf-card-text {
     font-weight: 400;
 }
+
+/* Footer */
 
 .footer-section {
     background-color: #2E2F42;
